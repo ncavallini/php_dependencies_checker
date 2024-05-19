@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-const PATH = __DIR__ . "/../admin";
+const PATH = __DIR__ . "/../proj"; // CHANGE THIS
 const FROM_EMAIL = "notifications@example.com"; // CHANGE THIS
 const TO_EMAIL = "admin@example.com"; // CHANGE THIS
 const PROJECT_NAME = "My Awesome PHP Project"; // CHANGE THIS
